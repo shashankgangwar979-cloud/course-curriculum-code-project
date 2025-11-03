@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html >
+<head>
+    
+    <title>news</title>
+
+</head>
+<body>
+    <hr>
+    <h1 style="text-align: center; background-color:beige">news</h1>
+    <br>
+    <div >
+         
+    <a href="#" style="padding-left: 10px;padding-right: 10px;" >home</a>
+    <a href="#" style="padding-left: 10px;padding-right: 10px;" >menu</a>
+    <a href="#" style="padding-left: 10px;padding-right: 10px;">youtube shorts</a>
+    <a href="#" style="padding-left: 10px;padding-right: 10px;">article</a>
+  
+    </div>
+    <hr>
+    <div>
+        <img src="bcc.jpg">
+        <img src="abes.jpg" height="200">
+
+    </div>
+    <iframe height="400px" width="400px;" name="myframe"></iframe >
+        <br>
+        <a href="bcc.jpg" target="myframe">button</a>
+
+        <br>
+        <a href="new.png" target="myframe">new image</a>
+        <br>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/C7wy0zHU800?si=C4oIqrVDYIjEURIQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        
+    <br>
+    <audio>
+        <source src="song.mp3">
+    </audio>
+</body>
+</html>
