@@ -1,0 +1,101 @@
+/* GLOBAL STYLES & RESETS */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* NAVIGATION BAR STYLING */
+.navbar {
+    display: flex; /* 1. Enables Flexbox layout */
+    justify-content: space-between; /* 2. Puts space between logo, nav-links, and utility-links */
+    align-items: center; /* 3. Centers items vertically */
+    background-color: #333; /* Dark background color */
+    color: white;
+    padding: 0.5em 1em; /* Vertical and horizontal padding */
+    height: 60px; /* Set a fixed height for the bar */
+}
+
+/* Logo Styling */
+.logo {
+    font-size: 1.5rem; /* Relative unit */
+    font-weight: bold;
+}
+
+/* Main Navigation Links Styling (Home, Products, etc.) */
+.nav-links {
+    display: flex;
+    flex-grow: 1; /* Allows links to take up available space in the middle */
+    justify-content: center; /* Centers the links within their available space */
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    margin: 0 0.5em;
+    transition: background-color 0.3s;
+}
+
+.nav-links a:hover {
+    background-color: #555;
+    border-radius: 4px;
+}
+.utility-links {
+    display: flex;
+    align-items: center;
+}.utility-links a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    margin-left: 0.5em;
+}.login-btn {
+    border: 1px solid white;
+    border-radius: 4px;
+}.login-btn:hover {
+    background-color: white;
+    color: #333;
+}.content-container {
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+    min-height: 200px; /* To make the box visible */
+    background-color: white;
+}
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column; /* Stacks the three main items vertically */
+        height: auto; /* Allow height to adjust for stacked content */
+        align-items: flex-start; /* Align all items to the start */
+    } .nav-links {
+        flex-direction: column;
+        width: 100%;
+        text-align: left;
+        margin: 0.5em 0;
+    }
+    .nav-links a {
+        display: block; /* Makes links take full width for easier tapping */
+        width: 100%;
+        margin: 0;
+        padding: 0.8em 1em;
+        border-top: 1px solid #555;
+    }
+    .utility-links {
+        width: 100%;
+        justify-content: space-around; /* Distribute space evenly in the full width */
+        padding: 0.5em 0;
+        border-top: 1px solid #555;
+    }
+    .utility-links a {
+        margin: 0;
+    }
+    .logo {
+        /* Ensure the logo is separated from the stacked menu on mobile */
+        padding: 0.5em 0;
+    }
+}

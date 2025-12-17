@@ -1,0 +1,47 @@
+
+.header {
+    background: #ddd;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #333;
+    font-family: Arial;
+}
+.header span {
+    color: red;
+}
+.nav1 {
+   
+    width: 95%;
+    margin: 20px auto;
+    padding: 10px;
+    background: #f7f7f7;
+    text-align: left;
+}
+.nav1 a {
+    display: inline-block;
+    background: #e0eaff;
+    padding: 5px 10px;
+    margin-right: 5px;
+    
+    text-decoration: none;
+    font-size: 14px;
+}
+.nav2 {
+    
+    width: 95%;
+    margin: 20px auto;
+    padding: 10px;
+    background: #f7f7f7;
+}
+.nav2 a {
+    float: left;
+    background: #c8ffcf;
+    padding: 5px 10px;
+    margin-right: 5px;
+    border: 1px solid #6ebf6e;
+    text-decoration: none;
+    font-size: 14px;
+}
+.clear {
+    clear: both;
+}
